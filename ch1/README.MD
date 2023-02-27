@@ -1,4 +1,4 @@
-# Ch1 The Basics of NestJS
+# Ch1. The Basics of NestJS
 
 ## NestJS 시작 전 환경 세팅
 
