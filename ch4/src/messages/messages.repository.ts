@@ -20,9 +20,10 @@ export class MessagesRepository {
     const messages = JSON.parse(contents);
 
     const id = Math.floor(Math.random() * 999);
-
     messages[id] = { id, content };
 
-    await writeFile('messages.json', JSON.stringify(messages))
+    await writeFile('messages.json', JSON.stringify(messages));
+
+    return messages[id];
   }
 }
