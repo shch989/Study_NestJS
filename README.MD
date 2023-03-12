@@ -7,6 +7,20 @@
 <br/>
 <br/>
 
+# NodeJS 기술 블로그
+
+| 목차 | 내용                                         |
+| ---- | -------------------------------------------- |
+| ch1  | NestJS의 기본적인 개념                       |
+| ch2  | NestJS CLI를 사용하여 프로젝트를 생성        |
+| ch3  | Pipe를 사용하여 요청 데이터를 검증           |
+| ch4  | NestJS 아키텍처: Services와 Repositories     |
+| ch5  | NestJS 아키텍처: 모듈을 사용하여 코드를 구성 |
+| ch6  | TypeORM을 사용하여 데이터를 영속화           |
+| ch7  | User 데이터를 생성하고 저장                  |
+| ch8  | HTTP 응답 데이터를 직렬화                    |
+| ch9  | 인증 및 권한 부여                            |
+
 # NodeJS
 
 ## NodeJS(v16) 커리큘럼
