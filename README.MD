@@ -1,54 +1,58 @@
 # 자료 설명
+
 ### 해당 자료는 지금까지 배운 MERN 스택의 핵심인 NodeJS의 기술을 복습하는 자료입니다.
+
 ### 파일 마다 제공하는 내용은 아래와 같으니 참고해주시길 바랍니다.
+
 <br/>
 <br/>
 
-# NodeJS_File
+# NodeJS
+
 ## NodeJS(v16) 커리큘럼
 
-### - Express.js 활용
+### NestJS의 구조 및 모듈
 
-### - Express.js REST API 구축
+### 요청 분석 및 응답 전송
 
-### - Express.js REST API 내 인증 구현
+### NestJS의 미들웨어 및 인터셉터
 
-### - Express.js REST API 내 파일 업로드
+### 서버에서 파일 작업 및 PDF 즉시 생성
 
-### - Express.js GraphQL API 구축
+### 파일 업로드 및 다운로드
 
-### - Express.js GraphQL API 내 인증 구현
+### NestJS에 SQL (MySQL) 및 TypeORM 사용하기
 
-### - Express.js GraphQL API 내 파일 업로드
+### NestJS에 NoSQL (MongoDB) 및 Mongoose 사용하기
 
-### - Express.js Websocket을 통해 실시간 Node.js 앱 구축하기
+### 세션 및 쿠키 작업
 
-### - Express.js 테스트 자동화 (유닛 테스트)
+### 사용자 인증 및 권한 부여
 
-### - Express.js with TypeScript
+### 이메일 전송
 
-### - NestJS 활용
+### 사용자 입력값 유효성 검사
 
-### - NestJS REST API 구축
+### 데이터 페이지화(Pagination)
 
-### - NestJS REST API 내 인증 구현
+### Stripe.js로 결제 다루기
 
-### - NestJS REST API 내 파일 업로드
+### GraphQL API 구축
 
-### - NestJS GraphQL API 구축
+### GraphQL API 내 인증 구현
 
-### - NestJS GraphQL API 내 인증 구현
+### GraphQL API 내 파일 업로드
 
-### - NestJS GraphQL API 내 파일 업로드
+### Websocket을 통해 실시간 NestJS 앱 구축하기
 
-### - NestJS Websocket을 통해 실시간 Node.js 앱 구축하기
+### 테스트 자동화 (유닛 테스트)
 
-### - NestJS 테스트 자동화 (유닛 테스트)
+### NestJS 애플리케이션 배포
 
-### - Node.js 애플리케이션 배포
 <br/>
 
 ## NodeJS 과정 수료증
+
 <img src="./img/udemy_node.jpg">
 <br/>
 <br/>
