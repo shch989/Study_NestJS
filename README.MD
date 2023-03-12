@@ -23,45 +23,45 @@
 
 # NodeJS
 
-## NodeJS(v16) 커리큘럼
+## NodeJS(v16+) 커리큘럼
 
-### NestJS의 구조 및 모듈
+### - NestJS의 구조 및 모듈
 
-### 요청 분석 및 응답 전송
+### - 요청 분석 및 응답 전송
 
-### NestJS의 미들웨어 및 인터셉터
+### - NestJS의 미들웨어 및 인터셉터
 
-### 서버에서 파일 작업 및 PDF 즉시 생성
+### - 서버에서 파일 작업 및 PDF 즉시 생성
 
-### 파일 업로드 및 다운로드
+### - 파일 업로드 및 다운로드
 
-### NestJS에 SQL (MySQL) 및 TypeORM 사용하기
+### - NestJS에 SQL (MySQL) 및 TypeORM 사용하기
 
-### NestJS에 NoSQL (MongoDB) 및 Mongoose 사용하기
+### - NestJS에 NoSQL (MongoDB) 및 Mongoose 사용하기
 
-### 세션 및 쿠키 작업
+### - 세션 및 쿠키 작업
 
-### 사용자 인증 및 권한 부여
+### - 사용자 인증 및 권한 부여
 
-### 이메일 전송
+### - 이메일 전송
 
-### 사용자 입력값 유효성 검사
+### - 사용자 입력값 유효성 검사
 
-### 데이터 페이지화(Pagination)
+### - 데이터 페이지화(Pagination)
 
-### Stripe.js로 결제 다루기
+### - Stripe.js로 결제 다루기
 
-### GraphQL API 구축
+### - GraphQL API 구축
 
-### GraphQL API 내 인증 구현
+### - GraphQL API 내 인증 구현
 
-### GraphQL API 내 파일 업로드
+### - GraphQL API 내 파일 업로드
 
-### Websocket을 통해 실시간 NestJS 앱 구축하기
+### - Websocket을 통해 실시간 NestJS 앱 구축하기
 
-### 테스트 자동화 (유닛 테스트)
+### - 테스트 자동화 (유닛 테스트)
 
-### NestJS 애플리케이션 배포
+### - NestJS 애플리케이션 배포
 
 <br/>
 
