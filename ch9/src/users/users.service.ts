@@ -12,27 +12,22 @@ export class UsersService {
     return this.repo.save(user);
   }
 
-  async findOne(id: number) {
-    // typeORM 3.0이후 findOne(id)의 사용 방법이 바뀜
-    const user = await this.repo.findOneBy({ id });
-    if (!user) {
-      throw new NotFoundException('user not found.');
+  findOne(id: number) {
+    if(!id) {
+      return null;
     }
-    return user;
+    // typeORM 3.0이후 findOne(id)의 사용 방법이 바뀜
+    return this.repo.findOneBy({ id });
   }
 
-  async find(email: string) {
+  find(email: string) {
     // typeORM 3.0이후 find({email})의 사용 방법이 바뀜
-    const user = await this.repo.find({ where: { email } });
-    if (user.length === 0) {
-      throw new NotFoundException('user email not found.');
-    }
-    return user;
+    return this.repo.find({ where: { email } });
   }
 
   async update(id: number, attrs: Partial<User>) {
     const user = await this.findOne(id);
-    Object.assign(user, attrs)
+    Object.assign(user, attrs);
     return this.repo.save(user);
   }
 
