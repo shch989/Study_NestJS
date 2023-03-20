@@ -49,7 +49,7 @@ $ npm install --save cookie-session @types/cookie-session
 
 ### Cookie Session 설정
 
-#### keys 옵션은 쿠키를 암호화하는 데 사용
+#### keys 옵션은 쿠키를 암호화하는 데 사용(현재 암호키: asdfasdf)
 
 main.ts
 
@@ -90,6 +90,38 @@ getColor(@Session() session: any) {
   return session.color
 }
 ```
+
+## Custom route decorator
+### Custom route decorator 란?
+@Get, @Post와 같은 기본 라우트 데코레이터가 아닌, 사용자가 직접 만든 라우트 데코레이터를 말한다. 커스텀 라우트 데코레이터를 사용하여 코드의 재사용성을 높이는 것으로 특정한 기능을 수행하는 API 엔드포인트에 대해 반복적으로 같은 코드를 작성하지 않고, 데코레이터를 적용하여 재사용성을 높일 수 있도록 한다.
+
+### 사용 간단 예시
+user.decorator.ts
+```
+import { createParamDecorator, ExecutionContext } from '@nestjs/common';
+
+export const User = createParamDecorator(
+  (data: unknown, ctx: ExecutionContext) => {
+    const request = ctx.switchToHttp().getRequest();
+    return request.user;
+  },
+);
+```
+
+controller
+```
+@Get()
+async findOne(@User() user: UserEntity) {
+  console.log(user);
+}
+```
+
+## Guard
+### Guard 란?
+요청을 처리하기 전에 미리 정의된 로직으로 인증, 인가, 요청 검증 등의 작업을 수행하여 보안과 유효성 검사 등의 역할을 한다. 가드를 사용하여 특정 요청이 허용되는지 여부를 결정할 수 있으며, 인증된 사용자만 허용되는 요청에 대해서는 인증을 수행한다.
+
+### Guard 가이드
+#### https://docs.nestjs.com/guards
 
 # 소스 파일(회원가입 및 로그인 기능)
 
